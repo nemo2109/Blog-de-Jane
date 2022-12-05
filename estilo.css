@@ -1,0 +1,117 @@
+h1{
+   text-align: center;
+   color: rgb(0, 0, 0);
+
+}
+
+#inicio{
+    padding: 25px;
+    background-image: url(cielo)
+}
+
+h2{
+   text-align: center;
+   color:black;
+}
+
+#navegar{
+    background-color: #5E5A5B;
+    padding: 10px 0;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+.navlink {
+    text-decoration: none;
+}
+
+.navlink:link, .navlink:visited {
+    color: white;
+}
+
+.navlink:link,.navlink:hover{
+    color: black;
+}
+
+h1 {
+    font-family:"bebas Neve", cursive;
+    font-family:"roboto", sans-serif;
+    color: gray; 
+}
+
+p {
+    text-align: center;
+}
+
+.primero{
+    display: flex;
+    justify-content: center;
+
+}
+
+.segundo{
+    display: flex;
+    justify-content: center;
+}
+
+.boxi{
+   width: 300px;
+   margin: 20px;
+   border: 2px solid black;
+   padding: 30px;
+  background-color: white;
+  display: inline-block;
+ 
+}
+
+
+#proximos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+#proximos-caja {
+    display: flex;
+    background-color: black;
+}
+
+.caja{
+    width: 400px;
+    margin: 20px;
+    background-color: rgb(26, 26, 221);
+    border-radius: 15px;
+}
+
+#cajita{
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+.endlink:link{
+    text-decoration: none;
+}
+
+.endlink:link, .endlink:visited{
+    color:gray;
+
+}
+
+
+
+#final {
+    padding: 25px;
+    background-image: url(cielo);
+}
+
+
